@@ -44,7 +44,7 @@ const HeroSection = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-float">
+      <div className="absolute bottom-8 left-0 right-0 flex justify-center animate-float">
         <a href="#collection" className="flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
           <span className="font-body text-[10px] tracking-[0.3em]">SCROLL</span>
           <ArrowDown size={16} />
